@@ -1,0 +1,41 @@
+Creating an isolated virtual environment for this data science project will allow all the necessary program to run without any package conflict. The forecasting model will be deployed using the Flask application page which will run after activating virtual environment and running "python app.py" 
+
+Create an isolated virtual environment for MAC
+source bin/activate
+pip install scikit-learn pandas numpy flask
+1. Using terminal find your current location. 
+- pwd 
+- 
+2. Once in the necessary directory location create the necessary folders 
+- virtualenv -p python3 ~/FolderNameForEnvironment
+- go to the new directory
+	- cd FolderNameForEnvironment
+
+OR… if you know the folders you need create all of the folders at once
+
+- mkdir -p PredictHousePrices/{static/css,templates}
+
+3. Include data as csv in the folder PredictHousePrices
+
+4. Create app.py and model.py
+- vim app.py
+- vim model.py
+
+5. Create style.css in static/css folder and index.html in the templates folder
+
+6. Make sure the model saved using pickle 'model.pkl' is in the same folder
+
+7. Run app 
+- python app.py
+
+8. Deactivate from the virtual environment
+-deactivate
+
+9. necessary requirement. txt file created 
+
+
+
+
+
+
+
